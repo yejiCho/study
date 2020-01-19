@@ -1,3 +1,7 @@
+# 오라클 11g hr계정 연습문제
+
+
+```sql
 --오라클 11g hr계정 연습문제
 
 --1. 직책(Job Title)이 Sales Manager인 사원들의 입사년도와 입사년도(hire_date)별 평균 급여를 출력하시오.
@@ -108,3 +112,4 @@
 --21. 커미션(commission_pct)을 가장 많이 받은 상위 4명의 부서명(department_name),
 --    직원명 (first_name), 급여(salary), 커미션(commission_pct) 정보를 조회하시오.
 --    출력결과는 커미션 을 많이 받는 순서로 출력하되 동일한 커미션에 대해서는 급여가 높은 직원이 먼저 출력 되게 한다.
+```
