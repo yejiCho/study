@@ -1,5 +1,30 @@
 # 오라클 11g hr계정 연습문제
 
+## 실습 환경 구축
+cmd 실행
+
+>sqlplus
+
+Enter user-name: system
+Enter password: 1234
+입력
+
+SQL> conn system/1234
+
+SQL> alter user hr identified by hr;
+
+SQL>conn hr/hr
+
+SQL>select table_name from tabs;
+
+SQL>quit
+
+sqlgate 실행
+
+사용자:hr
+암호:hr
+
+연결테스트->연결
 
 ```sql
 --오라클 11g hr계정 연습문제
