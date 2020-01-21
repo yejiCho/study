@@ -3,7 +3,7 @@
 ## 실습 환경 구축
 cmd 실행
 
->sqlplus
+>>sqlplus
 
 Enter user-name: system
 Enter password: 1234
