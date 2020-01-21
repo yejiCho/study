@@ -16,6 +16,7 @@ SQL> alter user hr identified by hr;
 SQL>conn hr/hr
 
 SQL>select table_name from tabs;
+table 확인
 
 SQL>quit
 
