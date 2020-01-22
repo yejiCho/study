@@ -15,7 +15,7 @@
 
 - 프로젝트
 
-### 자격증 시험 일정
+### ⭐️자격증 시험 일정⭐️
 
 - ADsP        :   2020월 02월 29일
 
@@ -23,6 +23,11 @@
 
 - SQLD        :   2020월 03월 07일     
 
+### 문제 사이트
+
+
+> SQL : <https://programmers.co.kr/>  
+        <https://www.hackerrank.com/?utm_expid=.2u09ecQTSny1HV02SEVoCg.0&utm_referrer=https%3A%2F%2Fwww.google.com%2F>
 
 # schedule
 
@@ -38,6 +43,20 @@
 
 
 ### GitHub 사용법
+
+```
+
+1. 현재 로컬저장소(개인 PC)의 repo삭제
+2. 원격저장소(GitHub)에서 다시 url 복사
+3. git clone url주소
+4. git checkout -t origin/[개인 브랜치 이름] 
+- 원격저장소에 각자 이름 브랜치 올려놔서 그대로 받아오면 됨
+- 원격저장소에서 있는 브랜치를 로컬저장소에 가져오면서 자동으로 브랜치 변경시켜줌
+5. git add .
+6. git commit -m "커밋할내용"
+7. git push origin [브랜치 이름]
+
+```
 
 ```
  1. Git 설치 https://git-scm.com/
