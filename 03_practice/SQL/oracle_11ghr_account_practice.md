@@ -13,6 +13,8 @@ SQL> conn system/1234
 
 SQL> alter user hr identified by hr;
 
+SQL> alter user hr account unlock;
+
 SQL>conn hr/hr
 
 SQL>select table_name from tabs;
