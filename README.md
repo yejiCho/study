@@ -57,6 +57,9 @@
 7. git add .
 8. git commit -m "커밋할내용"
 9. git push origin [브랜치 이름]
+10. pull request에서 내 요청이 보내졌는지 확인
+11. merge 하지말 것 merge는 추후에 할 예정
+
 
 ```
 
