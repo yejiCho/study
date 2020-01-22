@@ -49,12 +49,14 @@
 1. 현재 로컬저장소(개인 PC)의 repo삭제
 2. 원격저장소(GitHub)에서 다시 url 복사
 3. git clone url주소
-4. git checkout -t origin/[개인 브랜치 이름] 
+4. cd study
+5. git checkout -t origin/[개인 브랜치 이름] 
 - 원격저장소에 각자 이름 브랜치 올려놔서 그대로 받아오면 됨
 - 원격저장소에서 있는 브랜치를 로컬저장소에 가져오면서 자동으로 브랜치 변경시켜줌
-5. git add .
-6. git commit -m "커밋할내용"
-7. git push origin [브랜치 이름]
+6. git pull origin master - master내용 내브랜치에 반영해줘야함
+7. git add .
+8. git commit -m "커밋할내용"
+9. git push origin [브랜치 이름]
 
 ```
 
