@@ -1,0 +1,38 @@
+# SUM, MAX, MIN
+```SQL
+-- 1. 최댓값 구하기
+
+SELECT DATETIME
+  FROM(
+      SELECT ROWNUM
+           , DATETIME
+        FROM ANIMAL_INS
+       ORDER BY DATETIME DESC
+       )
+ WHERE ROWNUM = 1
+;
+
+-- 2. 최솟값 구하기
+
+SELECT DATETIME
+  FROM(
+      SELECT ROWNUM
+           , DATETIME
+        FROM ANIMAL_INS
+       ORDER BY DATETIME
+       )
+ WHERE ROWNUM = 1
+;
+
+-- 3. 동물 수 구하기
+
+SELECT COUNT(*)
+  FROM ANIMAL_INS
+;
+
+-- 4. 중복 제거하기
+
+SELECT COUNT(DISTINCT NAME)
+  FROM ANIMAL_INS
+;
+```
