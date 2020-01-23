@@ -46,6 +46,20 @@
 
 ```
 
+--(*작업시 필수사항)
+
+1. (master 브랜치)  git pull origin master -- 원격저장소에서 내용이 변경되었는지 pull 받아와서 수시로 확인
+2. (개인 브랜치)    git pull origin (개인브랜치) -- master 브랜치 변경사항 확인후 내 브랜치에도 반영
+
+
+```
+
+
+
+```
+
+-- 재시작 했을 경우
+
 1. 현재 로컬저장소(개인 PC)의 repo삭제
 2. 원격저장소(GitHub)에서 다시 url 복사
 3. git clone url주소
@@ -63,26 +77,5 @@
 
 ```
 
-```
- 1. Git 설치 https://git-scm.com/
- 
- 2. git clone [주소]
 
- 3. 브랜치 확인 - git branch (현재 *master 브랜치에 위치)
-
- 4. git branch [브랜치 이름] - 브랜치 생성
-
- 5. git checkout [브랜치 이름] - 브랜치 변경
-
- 6. git pull origin master - master 브랜치에서 내용 받아오기
-
- 7. git add . - 파일 추가
-
- 8. git commit -m "현재 한 작업 내용 메세지 쓰기"
-
- 9. git push origin [브랜치 이름]
-
-
-
-```
 
