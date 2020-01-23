@@ -1,0 +1,30 @@
+# IS NULL
+
+```SQL
+-- 1. 이름이 없는 동물의 아이디
+
+SELECT ANIMAL_ID
+  FROM ANIMAL_INS
+ WHERE NAME IS NULL
+ ORDER BY ANIMAL_ID
+;
+
+-- 2. 이름이 있는 동물의 아이디
+
+SELECT ANIMAL_ID
+  FROM ANIMAL_INS
+ WHERE NAME IS NOT NULL
+ ORDER BY ANIMAL_ID
+;
+
+-- 3. NULL 처리하기 
+
+-- 코드를 입력하세요
+SELECT ANIMAL_TYPE
+     , NVL2(NAME, NAME, 'No name') AS NAME
+     , SEX_UPON_INTAKE 
+  FROM ANIMAL_INS
+ ORDER BY ANIMAL_ID
+;
+
+```

@@ -1,0 +1,51 @@
+# GROUP BY
+
+```SQL
+-- 1. 고양이와 개는 몇 마리 있을까
+
+SELECT ANIMAL_TYPE, COUNT(*)
+  FROM ANIMAL_INS
+ WHERE ANIMAL_TYPE IN ('Cat','Dog')
+ GROUP BY ANIMAL_TYPE
+ ORDER BY ANIMAL_TYPE
+;
+
+-- 2. 동명 동물 수 찾기
+
+SELECT NAME
+     , COUNT(NAME)
+  FROM ANIMAL_INS
+ GROUP BY NAME
+HAVING COUNT(NAME) > 1
+ ORDER BY NAME
+;
+
+-- 3. 입양 시각 구하기(1)
+
+
+SELECT HOUR
+     , COUNT(HOUR) AS COUNT
+  FROM(
+      SELECT TO_CHAR(DATETIME,'HH24') AS HOUR
+        FROM ANIMAL_OUTS
+        )   
+ WHERE HOUR >=09
+   AND HOUR <= 19
+ GROUP BY HOUR
+ ORDER BY HOUR
+;
+
+-- 4. 입양 시각 구하기(2)
+-- 못 푼 문제
+
+SELECT HOUR
+     , COUNT(HOUR) AS COUNT 
+  FROM(
+       SELECT TO_CHAR(DATETIME, 'HH24') AS HOUR
+         FROM ANIMAL_OUTS
+         )
+ GROUP BY HOUR
+ ORDER BY HOUR
+;
+
+```
