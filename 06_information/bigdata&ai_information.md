@@ -10,6 +10,21 @@ http://www.aihub.or.kr/
 3. SQuAD(Stanford Question Answering Dataset)
 https://rajpurkar.github.io/SQuAD-explorer/
 
+4. K-ICT 빅데이터 센터
+https://kbig.kr/portal/kbig
+
+5. 시도 데이터셋
+
+[서울 열린 데이터 광장]
+http://data.seoul.go.kr/dataList/datasetList.do
+
+[서울특별시 빅데이터 캠퍼스]
+https://bigdata.seoul.go.kr/main.do
+
+[경기데이터드림]
+https://data.gg.go.kr/portal/mainPage.do
+
+
 - 챌린지 및 공모전
 
 1. Kaggle
@@ -17,6 +32,7 @@ https://www.kaggle.com/
 
 2. 빅데이터 공모전
 https://www.contestkorea.com/sub/list.php?Txt_bcode=030220005
+
 
 - 인공지능 관련 기사
 
@@ -31,6 +47,13 @@ http://www.zdnet.co.kr/view/?no=20200121085643
 
 [AI가 미래다②]인공지능의 현재와 미래…이렇게 바뀐다
 http://www.newsis.com/view/?id=NISX20200111_0000886042&cID=13001&pID=13000
+
+“인공지능 과대포장됐다”…세번째 겨울 오나
+http://www.hani.co.kr/arti/science/future/925028.html
+
+기고 | ‘세익스피어 vs. 래퍼’··· AI 모델 편향성 사례 살펴보기
+http://www.ciokorea.com/news/142474
+
 
 - 관련 정보
 
