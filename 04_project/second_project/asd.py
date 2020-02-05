@@ -1,7 +1,3 @@
-# contact.py
-
-``` python
-
 prompt = '''
 ============================
 다음 메뉴 중 하나를 선택하세요.
@@ -77,6 +73,3 @@ while MenuNumber <= 5:
     if MenuNumber == 5:
         print("종료되었습니다.")
         break
-
-
-```
