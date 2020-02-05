@@ -55,7 +55,7 @@ while MenuNumber <= 5:
         print("주의 : 중복 되는 전화번호 입력시 가장 최근에 입력된 번호만 저장됩니다.")
 
         member["이름"] = input("이름: ")
-        pn = int(input("전화번호(ex 01012345678): "))
+        pn = str(input("전화번호(ex 01012345678): "))
         member["전화번호"] = pn
         member["구분"] = input("구분(ex 가족, 친구, 기타): ")
         members[pn] = member
