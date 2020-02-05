@@ -15,12 +15,6 @@ def input_classification(classification,classifications):
     if classification not in classifications:
         raise ContentError()
 
-# def input_num(num, key):
-#
-#     if int(renum) - 1 == (keys.index(key)):
-#         del public_info[key]
-
-
 def main():
 
     prompt = """
@@ -92,53 +86,14 @@ def check_information(public_information):
             print(str(keys.index(key) + 1) + "." + "이름 = " +
                 public_information[key]['name'] + "전화번호 : " + public_information[key]['phone_num'] +" 구분: "
                 +public_information[key]['classification'])
-
-
-    #if input_name != public_information[key]['name']:
-
-     #   print("해당하는 회원의 정보가 없습니다.")
-    
         # 숫자를 입력받는다.
     renum = input()
     # 전화번호를 list에 넣어준다.
     keys = list(public_information.keys())
     # 입력받은 숫자와 key의 인덱스 번호가 일치하면 정보를 삭제해준다.
-        # print("없는번호입니다.")
-        # pass
     for key in keys:
         if int(renum)-1 == (keys.index(key)):
             del public_information[key]
-
-
-# # 3,4번 공통: 삭제하기
-# def del_information(public_info):
-#     # 숫자를 입력받는다.
-#     renum = input()
-#     # 전화번호를 list에 넣어준다.
-#     keys = list(public_info.keys())
-#     # 입력받은 숫자와 key의 인덱스 번호가 일치하면 정보를 삭제해준다.
-#         # print("없는번호입니다.")
-#         # pass
-#     for key in keys:
-#         if int(renum)-1 == (keys.index(key)):
-#             del public_info[key]
-#         else:
-#             print("해당하는 번호가 없습니다.")
-            # return {}
-
-
-        # try:
-        #     if int(renum) - 1 == (keys.index(key)):
-        #         del public_info[key]
-        # except:
-        #     print("존재하는 번호가 없습니다.")
-        # else:
-        #     print("존재하는 번호가 없습니다.")
-    # if int(renum)-1 != (keys.index(key)):
-    #     print("존재하는 번호가 없습니다.")
-
-
-
 
 
 
