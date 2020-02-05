@@ -13,7 +13,7 @@ def get_contact_from_file(file_name: str = "contact.txt") -> dict:
     키워드 인수:
     file_name -- 파일 경로 (default contact.txt)
     """
-    all_contact = {}
+    all_contact = dict()
 
     try:
         with open(file_name, 'rb') as f:

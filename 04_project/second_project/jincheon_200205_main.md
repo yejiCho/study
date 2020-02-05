@@ -24,7 +24,7 @@ while 1:
     if not menu_num:
         # 입력값 오류(menu_num=0)
         print("1~5 사이의 숫자를 입력하세요.")
-    if menu_num == 1:
+    elif menu_num == 1:
         # 연락처 추가
         print("등록할 연락처의 정보를 입력하세요.")
         input_contact = input_one_contact()
