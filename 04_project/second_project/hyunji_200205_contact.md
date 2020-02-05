@@ -1,6 +1,7 @@
 ```python
 
 
+
 import pickle
 
 
@@ -26,7 +27,7 @@ class SortError(Exception):             ## definedSort라는 tuple내의 값만 
     def __str__(self):
         return "\n*구분은 (가족, 친구, 회사, 기타) 내의 값만 입력 가능합니다."
 
-class InsertNameError(Exception):
+class InsertNameError(Exception):       ## 이름을 입력하지 않는 경우 오류 발생하게 함
     def __str__(self):
         return "\n*이름을 입력하세요"
 def picLoad():
@@ -142,6 +143,9 @@ while(mark):
 
     else :
         print("유효하지 않은 입력입니다. 1~5까지의 숫자를 입력해주세요.")
+
+    
+
 
     
 
