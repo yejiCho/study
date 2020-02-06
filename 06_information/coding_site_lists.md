@@ -1,3 +1,4 @@
+```
 (한국)
 프로그래머스
 SW Expert Academy
@@ -10,8 +11,8 @@ hackerrank
 nomadcoders(강좌)
 LeetCode
 edX
-Coursera
+Coursera(ML/DL)
 Codeacademy
 Khan Academy(수학)
 kaggle
-LiveSQL
+```
