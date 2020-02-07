@@ -36,6 +36,15 @@ https://www.contestkorea.com/sub/list.php?Txt_bcode=030220005
 
 - 인공지능 관련 기사(상위 최근)
 
+[AI 사피엔스 시대]인류 진화의 문턱, 'AI 일류'를 꿈꾸다(2020.02.04)
+https://www.etnews.com/20200204000308
+
+[AI 사피엔스 시대]AI주도권 전쟁터, 실리콘밸리를 가다(2020.02.04)
+https://www.etnews.com/news/article.html?id=20200204000143
+
+[IT칼럼]AI 학습 데이터를 노리는 공격자들(2020.02.10)
+http://weekly.khan.co.kr/khnm.html?mode=view&code=114&artid=202002031632451&pt=nv
+
 빅데이터+AI로 미래유망기술 예측…지구온난화 대응기술 주목
 http://news.heraldcorp.com/view.php?ud=20200203000563
 
