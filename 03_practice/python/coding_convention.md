@@ -113,7 +113,7 @@ name: str = 'kim'
 def function(a: str, b: int = 0) -> int:
     """어떤 기능을 하고 어떤 값을 리턴한다.
 
-    파라미터:
+    Arguments:
     a -- 뭘 입력받는지
     b -- 뭘 입력받는지 (default 0)
     """
@@ -128,7 +128,12 @@ def function(a: str, b: int = 0) -> int:
     """
     코드
 
+1번을 권장함
 클래스나 메소드도 마찬가지
+private 메소드에 대해 설명하고자 하면 docstring을 입력하지않고 블록 주석을 단다.
+def _aa():
+    # 어떤 기능을 함
+
 
 - 마무리
 자주 쓰고 알아두면 좋을 것들 적어놨는데 이 밖에도 많이 있음
