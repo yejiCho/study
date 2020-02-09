@@ -24,6 +24,30 @@ https://bigdata.seoul.go.kr/main.do
 [경기데이터드림]
 https://data.gg.go.kr/portal/mainPage.do
 
+6.영화진흥위원회
+https://www.kofic.or.kr/kofic/business/main/main.do
+
+7.한국소비자원 참가격
+http://www.price.go.kr/tprice/portal/main/main.do
+
+8. SKT Data Hub
+https://www.bigdatahub.co.kr/index.do
+
+9.KorQuAd
+https://korquad.github.io/
+
+10. pathmind
+https://pathmind.com/kr/wiki/open-datasets
+
+11. 국립중앙도서관
+https://lod.nl.go.kr/home/about/dataset.jsp
+
+12. 공공 인공지능 오픈 API·DATA 서비스 포털
+http://aiopen.etri.re.kr/
+
+13. 국가공간정보포털
+http://www.nsdi.go.kr/lxportal/?menuno=4072&brmcd=0308
+
 
 - 챌린지 및 공모전
 
