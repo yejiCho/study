@@ -83,11 +83,11 @@ class Contact(object):
         key: 전화번호, value: 한명의 연락처 딕셔너리
 
     멤버 메소드:
-    set_all_contact()
-    get_all_contact()
-    add_contact()
-    print_all_contact()
-    edit_contact()
+    set_all_contact() -- _all_contact에 입력받은 연락처 저장
+    get_all_contact() -- 저장된 연락처 불러오기
+    add_contact() -- _all_contact에 입력받은 한명의 연락처 추가
+    print_all_contact() -- _all_contact에 저장된 모든 연락처 출력
+    edit_contact() -- _all_contact에 저장된 연락처 수정 혹은 삭제
     """
     _all_contact: dict
 
@@ -214,5 +214,6 @@ class Contact(object):
         else:
             # 입력값과 중복된 연락처가 없을 경우
             print("해당하는 연락처 정보가 없습니다.\n")
+
 
 ```
