@@ -24,6 +24,30 @@ https://bigdata.seoul.go.kr/main.do
 [경기데이터드림]
 https://data.gg.go.kr/portal/mainPage.do
 
+6.영화진흥위원회
+https://www.kofic.or.kr/kofic/business/main/main.do
+
+7.한국소비자원 참가격
+http://www.price.go.kr/tprice/portal/main/main.do
+
+8. SKT Data Hub
+https://www.bigdatahub.co.kr/index.do
+
+9.KorQuAd
+https://korquad.github.io/
+
+10. pathmind
+https://pathmind.com/kr/wiki/open-datasets
+
+11. 국립중앙도서관
+https://lod.nl.go.kr/home/about/dataset.jsp
+
+12. 공공 인공지능 오픈 API·DATA 서비스 포털
+http://aiopen.etri.re.kr/
+
+13. 국가공간정보포털
+http://www.nsdi.go.kr/lxportal/?menuno=4072&brmcd=0308
+
 
 - 챌린지 및 공모전
 
@@ -35,6 +59,15 @@ https://www.contestkorea.com/sub/list.php?Txt_bcode=030220005
 
 
 - 인공지능 관련 기사(상위 최근)
+
+[AI 사피엔스 시대]인류 진화의 문턱, 'AI 일류'를 꿈꾸다(2020.02.04)
+https://www.etnews.com/20200204000308
+
+[AI 사피엔스 시대]AI주도권 전쟁터, 실리콘밸리를 가다(2020.02.04)
+https://www.etnews.com/news/article.html?id=20200204000143
+
+[IT칼럼]AI 학습 데이터를 노리는 공격자들(2020.02.10)
+http://weekly.khan.co.kr/khnm.html?mode=view&code=114&artid=202002031632451&pt=nv
 
 빅데이터+AI로 미래유망기술 예측…지구온난화 대응기술 주목
 http://news.heraldcorp.com/view.php?ud=20200203000563
