@@ -54,8 +54,6 @@
 
 ```
 
-
-
 ```
 
 -- 재시작 했을 경우
@@ -77,5 +75,27 @@
 
 ```
 
+## 회고록
+
+### 파이썬 코드 작성 규칙
 
 
+#### 네이밍 스타일(이름 잡기)
+
+- 함수, 변수 이름
+```
+1.함수나 변수 이름은 소문자로 구성되고 언더스코어(_)로 구분
+2.비슷한 이름은 피하기
+3.특히! key, keys나 member, members 이렇게 두개 사용하는거 가독성 X
+ex) python: contact_information
+4.너무 긴 이름은 피하는게 좋음
+```
+- 클래스 이름
+```
+1. 클래스는 자바와 통일(CapWords 작성규칙)
+2. 대문자 시작, 대문자 구분
+3. 클래스, 예외는 풀네임을 써주는게 좋다!
+ex) class ContactInformation, class GetContactError 등
+```
+
+#### 나머지 자세한 부분은 03_practice/python/coding_convention.md 참고
