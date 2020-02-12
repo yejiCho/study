@@ -60,6 +60,27 @@ https://www.contestkorea.com/sub/list.php?Txt_bcode=030220005
 
 - 인공지능 관련 기사(상위 최근)
 
+AI 학습용 산업제어시스템 보안 데이터셋 공개, 한국이 또 한번 일냈다(2020.02.12)
+https://www.boannews.com/media/view.asp?idx=86332&kind=
+
+2020 디지털 업무 혁신 키워드: AI, 챗봇 그리고 애자일 HR(2020.02.12)
+http://www.hellot.net/new_hellot/magazine/magazine_read.html?code=202&sub=004&idx=50306
+
+CES2020에서 본 인공지능(AI)의 가치(2020.02.11)
+https://www.ifs.or.kr/bbs/board.php?bo_table=News&wr_id=2713
+
+[AI 사피엔스 시대]머신러닝에 목소리 입힌 'AI 가상인간' 시대 열린다(2020.02.11)
+https://www.etnews.com/news/article.html?id=20200211000183
+
+[AI 사피엔스 시대]"모히또 가서 몰디브 한 잔?"…이병헌 목소리 확신했더니 '땡'(2020.02.11)
+https://www.etnews.com/news/article.html?id=20200211000182
+
+[AI 사피엔스 시대]진짜 같은 가짜, AI 그림자 '딥페이크' 경계령(2020.02.11)
+https://www.etnews.com/news/article.html?id=20200211000184
+
+[AI 사피엔스 시대]소프트웨어(SW)학과 교수가 바라본 국내 AI연구·개발 현주소는?(2020.02.11)
+https://www.etnews.com/news/article.html?id=20200211000185
+
 [AI 사피엔스 시대]인류 진화의 문턱, 'AI 일류'를 꿈꾸다(2020.02.04)
 https://www.etnews.com/20200204000308
 
