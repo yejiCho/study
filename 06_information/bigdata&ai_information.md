@@ -1,10 +1,9 @@
-```
-- 데이터베이스 사이트
+# 데이터베이스 사이트
 
 1. 공공데이터포털
 https://www.data.go.kr/
 
-2.AI Hub
+2. AI Hub
 http://www.aihub.or.kr/
 
 3. SQuAD(Stanford Question Answering Dataset)
@@ -33,7 +32,7 @@ http://www.price.go.kr/tprice/portal/main/main.do
 8. SKT Data Hub
 https://www.bigdatahub.co.kr/index.do
 
-9.KorQuAd
+9. KorQuAd
 https://korquad.github.io/
 
 10. pathmind
@@ -49,7 +48,7 @@ http://aiopen.etri.re.kr/
 http://www.nsdi.go.kr/lxportal/?menuno=4072&brmcd=0308
 
 
-- 챌린지 및 공모전
+# 챌린지 및 공모전
 
 1. Kaggle
 https://www.kaggle.com/
@@ -58,7 +57,8 @@ https://www.kaggle.com/
 https://www.contestkorea.com/sub/list.php?Txt_bcode=030220005
 
 
-- 인공지능 관련 기사(상위 최근)
+# 인공지능 관련 기사(상위 최근)
+
 
 AI 학습용 산업제어시스템 보안 데이터셋 공개, 한국이 또 한번 일냈다(2020.02.12)
 https://www.boannews.com/media/view.asp?idx=86332&kind=
@@ -115,6 +115,5 @@ http://www.newsis.com/view/?id=NISX20200122_0000897385&cID=13001&pID=13000
 http://www.sisaon.co.kr/news/articleView.html?idxno=108322
 
 
-- 관련 정보
+# 관련 정보
 
-```
