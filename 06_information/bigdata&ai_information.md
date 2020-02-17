@@ -76,6 +76,21 @@ https://www.contestkorea.com/sub/list.php?Txt_bcode=030220005
 
 # 인공지능 관련 기사(상위 최근)
 
+- 인공지능 스타트업에 대한 기회 살펴보기 [배운철의 창업전략](2020.02.17)
+
+https://www.startuptoday.kr/news/articleView.html?idxno=29319
+
+- AI 통해 고객에게 먼저 다가간 기업들(2020.02.17)
+
+http://www.klnews.co.kr/news/articleView.html?idxno=120794
+
+- [기고] AI가 모든 것을 바꾼다(2020.02.16)
+
+http://www.dt.co.kr/contents.html?article_no=2020021702152269607001&ref=naver
+
+- 기고 | 인공지능(AI)의 간략한 역사(2020.02.17)
+
+http://www.ciokorea.com/news/144114
 
 - AI 학습용 산업제어시스템 보안 데이터셋 공개, 한국이 또 한번 일냈다(2020.02.12)
 
