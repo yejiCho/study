@@ -6,7 +6,7 @@ CREATE TABLE contacts(
 	nm      NVARCHAR2(20) NOT NULL,
 	phoneno VARCHAR2(11)  NOT NULL,
 	email   VARCHAR2(30),
-	grpno   NUMBER(3)     NOT NULL
+	grpno   NUMBER     		NOT NULL
 );
 
 CREATE TABLE grps(

@@ -22,6 +22,10 @@ class ModelDB(metaclass=ABCMeta):
     _exec_selectone(): 한 row 가져오는 sql 실행
     _exec_selectall(): 모든 row 가져오는 sql 실행
     """
+    def __init__(self):
+        self._user = ""
+        self._passwd = ""
+        self._conn = ""
 
     @abstractmethod
     def insert_data(self, dto):
@@ -43,10 +47,28 @@ class ModelDB(metaclass=ABCMeta):
         """데이터 삭제 구현"""
         pass
 
-    @staticmethod
-    def _exec_dml(sql: str, data: tuple = tuple()):
-        # DB에 연동하여 dml(insert, update, delete)을 실행
-        conn = cxo.connect('contact_user/1234@localhost:1521/xe')
+    def db_login(self):
+        """db 연결 검사
+        연결됐을 경우 빈문자열 리턴, 연결 안됐을 경우 메시지 리턴
+
+        :return: 연결 검사 메시지
+        """
+        result = ""
+        try:
+            conn = cxo.connect(self._user, self._passwd, self._conn)
+            conn.close()
+        except cxo.DatabaseError:
+            result = "유효하지 않은 id와 비밀번호입니다."
+
+        return result
+
+    def _exec_dml(self, sql: str, data: tuple = tuple()):
+        """DB에 연동하여 dml(insert, update, delete)을 실행
+        
+        :param sql: 실행할 sql문
+        :param data: sql문에 필요한 데이터(default tuple())
+        """
+        conn = cxo.connect(self._user, self._passwd, self._conn)
         cursor = conn.cursor()
         cursor.execute(sql, data)
 
@@ -54,10 +76,12 @@ class ModelDB(metaclass=ABCMeta):
         conn.commit()
         conn.close()
 
-    @staticmethod
-    def _exec_selectone(sql: str) -> tuple:
-        # DB에 연동하여 한 row를 가져오는 select sql 실행
-        conn = cxo.connect('contact_user/1234@localhost:1521/xe')
+    def _exec_selectone(self, sql: str) -> tuple:
+        """DB에 연동하여 한 row를 가져오는 select sql 실행
+        
+        :param sql: 실행할 sql문
+        """
+        conn = cxo.connect(self._user, self._passwd, self._conn)
         cursor = conn.cursor()
         cursor.execute(sql)
         data = cursor.fetchone()
@@ -67,10 +91,12 @@ class ModelDB(metaclass=ABCMeta):
 
         return data
 
-    @staticmethod
-    def _exec_selectall(sql: str) -> list:
-        # DB에 연동하여 모든 row를 가져오는 select sql 실행
-        conn = cxo.connect('contact_user/1234@localhost:1521/xe')
+    def _exec_selectall(self, sql: str) -> list:
+        """DB에 연동하여 모든 row를 가져오는 select sql 실행
+
+        :param sql: 실행할 sql문
+        """
+        conn = cxo.connect(self._user, self._passwd, self._conn)
         cursor = conn.cursor()
         cursor.execute(sql)
         data = cursor.fetchall()

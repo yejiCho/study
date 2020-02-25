@@ -18,15 +18,28 @@ class ContactController(Controller):
     연락처 프로그램에 적합한 컨트롤러를 구현한 클래스
     """
 
+    def __str__(self):
+        return "login(id, password)을 호출하여 " \
+               "로그인을 하시고 " \
+               "run() 메소드를 호출하여 실행하세요."
+
     def __init__(self):
         """컨트롤러에서는 뷰와 모델을 계속 호출해야하기 때문에
-        컨트롤러 오브젝트를 생성하면서 뷰와 모델 오브젝트를 함께 생성
+        컨트롤러 오브젝트를 생성하면서 뷰와 모델 변수 선언
+        """
+        self._view = None
+        self._model = None
+
+    def login(self, user, passwd):
+        """id와 비밀번호를 입력받아 뷰와 모델 오브젝트 생성
+        연결 실패시 모델 오브젝트 제거
         """
         self._view = ContactView()
-        self._model = ContactModel()
-
-    def __str__(self):
-        return "run() 메소드를 호출하여 실행하세요."
+        self._model = ContactModel(user, passwd)
+        result = self._model.db_login()
+        if result:
+            self._view.print_error(result)
+            self._model = None
 
     def run(self):
         """연락처 프로그램 실행 메소드
@@ -37,6 +50,11 @@ class ContactController(Controller):
         4: 연락처 삭제 -- delete()
         5: 종료 -- quit()
         """
+        if not self._model:
+            # 로그인 안했을 경우 메시지 출력 후 종료
+            print(ContactController())
+            return
+
         while True:
             menu_num = self._get_valid_integer('mn', 1, 6)
             if menu_num == 1:
@@ -101,7 +119,7 @@ class ContactController(Controller):
             # 0을 입력받으면 메소드 종료
             return
 
-        dto = dto_list[mod_num-1]
+        dto = dto_list[mod_num-1]   # 수정할 연락처 dto
         dto.name = self._get_valid_name()
         dto.phoneno = self._get_valid_phoneno()
         dto.email = self._get_valid_email()
@@ -132,15 +150,13 @@ class ContactController(Controller):
             # 0을 입력받으면 메소드 종료
             return
 
-        dto = dto_list[del_num-1]
+        dto = dto_list[del_num-1]   # 삭제할 연락처 dto
         self._model.delete_data(dto)
         self._view.print_result("삭제")
 
     def quit(self):
-        """연락처 종료
-        구분에 속한 연락처가 존재하지 않는 구분들을 삭제하고
-        메시지를 출력한다.
-        """
+        """연락처 종료"""
+        # 구분에 속한 연락처가 존재하지 않는 구분들을 삭제
         self._model.delete_unused_group()
         self._view.print_result("종료")
 
@@ -168,6 +184,9 @@ class ContactController(Controller):
 
     def _get_valid_integer(self, mode: str, start: int, stop: int) -> int:
         # 올바른 숫자를 입력받아 리턴
+        # mode 설명
+        # 'mn': 메인 메뉴 번호 입력, 'con': 조건 검색 메뉴 번호 입력,
+        # 'mod': 수정 번호 입력, 'del': 삭제 번호 입력
         while 1:
             num = ""
             if mode == 'mn':

@@ -12,6 +12,12 @@ class ContactModel(ModelDB):
     연락처 프로그램에 적합한 모델을 구현한 클래스
     """
 
+    def __init__(self, user, passwd):
+        super().__init__()
+        self._user = user
+        self._passwd = passwd
+        self._conn = 'localhost:1521/xe'
+
     def _select_grpno(self, grp: str) -> int:
         # 구분 이름값을 입력받아 구분 번호를 리턴
         sql = f"SELECT grpno" \
