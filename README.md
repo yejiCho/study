@@ -26,8 +26,8 @@
 ### 문제 사이트
 
 
-> SQL : <https://programmers.co.kr/>  
-        <https://www.hackerrank.com/?utm_expid=.2u09ecQTSny1HV02SEVoCg.0&utm_referrer=https%3A%2F%2Fwww.google.com%2F>
+> SQL : <https://programmers.co.kr/>  <br/>
+        <https://www.hackerrank.com/?utm_expid=2u09ecQTSny1HV02SEVoCg.0&utm_referrer=https%3A%2F%2Fwww.google.com%2F>
 
 # schedule
 
@@ -99,3 +99,4 @@ ex) class ContactInformation, class GetContactError 등
 ```
 
 #### 나머지 자세한 부분은 03_practice/python/coding_convention.md 참고
+[파이썬코드 작성규칙](https://github.com/yejiCho/study/blob/master/03_practice/python/coding_convention.md)
