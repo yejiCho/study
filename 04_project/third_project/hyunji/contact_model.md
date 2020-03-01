@@ -2,7 +2,7 @@
 # contact_model.py
 import cx_Oracle as cxo
 import contact_dto as cd
-class Exe:
+class Exe: 
     """sql문을 받아 execute하는 클래스이다."""
     def __init__(self, path="ora_user/1234@localhost:1521/xe"):
         """
